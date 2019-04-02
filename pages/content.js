@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { gql } from 'apollo-boost'
 import { Query } from 'react-apollo'
+import Router from 'next/router'
 import Pokemon from '../components/pokemon'
 import styled from 'styled-components'
 
@@ -30,7 +31,17 @@ const Content = () => {
           if (error) return <p>Error :(</p>
 
           return data.pokemons.map(pokemon => {
-            return <Pokemon key={pokemon.id} src={pokemon.image} name={pokemon.name} type={pokemon.types} />
+            return (
+              <Pokemon
+                key={pokemon.id}
+                onClick={() => {
+                  Router.push({ pathname: '/pokemonInfo' })
+                }}
+                src={pokemon.image}
+                name={pokemon.name}
+                type={pokemon.types}
+              />
+            )
           })
         }}
       </Query>
