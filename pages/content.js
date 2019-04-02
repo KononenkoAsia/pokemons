@@ -23,6 +23,7 @@ const AllPokemonsBlock = styled.div`
 `
 
 const Content = () => {
+  const [id, setId] = useState(0)
   const showPokemons = () => {
     return (
       <Query query={getPokemons}>
@@ -35,7 +36,7 @@ const Content = () => {
               <Pokemon
                 key={pokemon.id}
                 onClick={() => {
-                  Router.push({ pathname: '/pokemonInfo' })
+                  Router.push({ pathname: '/pokemonInfo', query: { id: pokemon.id } }), setId(pokemon.id)
                 }}
                 src={pokemon.image}
                 name={pokemon.name}
