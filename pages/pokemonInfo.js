@@ -1,11 +1,17 @@
 import React from 'react'
+import { withRouter } from 'next/router'
 
-const PokemonInfo = () => {
+const PokemonInfo = ({
+  router: {
+    query: { id }
+  }
+}) => {
   return (
     <div>
-      <h2>hello</h2>
+      <h2>This is my id:</h2>
+      <h3> {id}</h3>
     </div>
   )
 }
 
-export default PokemonInfo
+export default withRouter(PokemonInfo)
