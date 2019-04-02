@@ -1,10 +1,18 @@
-import React, { Component } from 'react'
-import { render } from 'react-dom'
+import React from 'react'
+import Content from './content'
+import ApolloClient from 'apollo-boost'
+import { ApolloProvider } from 'react-apollo'
 
-class Index extends Component {
-  render() {
-    return <div>HELLO </div>
-  }
+const client = new ApolloClient({
+  uri: 'https://graphql-pokemon.now.sh/graphql'
+})
+
+const Index = () => {
+  return (
+    <ApolloProvider client={client}>
+      <Content />
+    </ApolloProvider>
+  )
 }
 
 export default Index

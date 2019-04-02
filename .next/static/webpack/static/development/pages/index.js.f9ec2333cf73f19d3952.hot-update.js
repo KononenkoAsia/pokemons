@@ -1,10 +1,52 @@
-((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
+webpackHotUpdate("static/development/pages/index.js",{
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/create.js":
+false,
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js":
+false,
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/get-prototype-of.js":
+false,
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js":
+false,
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/symbol.js":
+false,
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/symbol/iterator.js":
+false,
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js":
+false,
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js":
+false,
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js":
+false,
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js":
+false,
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js":
+false,
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js":
+false,
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/setPrototypeOf.js":
+false,
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/typeof.js":
+false,
 
 /***/ "./node_modules/apollo-boost/lib/bundle.esm.js":
 /*!*****************************************************!*\
   !*** ./node_modules/apollo-boost/lib/bundle.esm.js ***!
   \*****************************************************/
-/*! exports provided: ApolloClient, ObservableQuery, NetworkStatus, isApolloError, ApolloError, FetchType, Observable, getOperationName, createOperation, makePromise, toPromise, fromPromise, fromError, empty, from, split, concat, ApolloLink, execute, InMemoryCache, defaultDataIdFromObject, StoreReader, assertIdValue, WriteError, enhanceErrorWithDocument, StoreWriter, HeuristicFragmentMatcher, IntrospectionFragmentMatcher, ObjectCache, defaultNormalizedCacheFactory, HttpLink, gql, default */
+/*! exports provided: HttpLink, gql, default, ApolloClient, ObservableQuery, NetworkStatus, isApolloError, ApolloError, FetchType, Observable, getOperationName, createOperation, makePromise, toPromise, fromPromise, fromError, empty, from, split, concat, ApolloLink, execute, InMemoryCache, defaultDataIdFromObject, StoreReader, assertIdValue, WriteError, enhanceErrorWithDocument, StoreWriter, HeuristicFragmentMatcher, IntrospectionFragmentMatcher, ObjectCache, defaultNormalizedCacheFactory */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6498,6 +6540,228 @@ var invariant$1 = invariant;
 
 /***/ }),
 
+/***/ "./node_modules/core-js/library/fn/object/create.js":
+false,
+
+/***/ "./node_modules/core-js/library/fn/object/define-property.js":
+false,
+
+/***/ "./node_modules/core-js/library/fn/object/get-prototype-of.js":
+false,
+
+/***/ "./node_modules/core-js/library/fn/object/set-prototype-of.js":
+false,
+
+/***/ "./node_modules/core-js/library/fn/symbol/index.js":
+false,
+
+/***/ "./node_modules/core-js/library/fn/symbol/iterator.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_a-function.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_add-to-unscopables.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_an-object.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_array-includes.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_cof.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_core.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_ctx.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_defined.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_descriptors.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_dom-create.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_enum-bug-keys.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_enum-keys.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_export.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_fails.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_global.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_has.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_hide.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_html.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_ie8-dom-define.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_iobject.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_is-array.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_is-object.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_iter-create.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_iter-define.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_iter-step.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_iterators.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_library.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_meta.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_object-create.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_object-dp.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_object-dps.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_object-gopd.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_object-gopn-ext.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_object-gopn.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_object-gops.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_object-gpo.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_object-keys-internal.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_object-keys.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_object-pie.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_object-sap.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_property-desc.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_redefine.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_set-proto.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_set-to-string-tag.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_shared-key.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_shared.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_string-at.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_to-absolute-index.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_to-integer.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_to-iobject.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_to-length.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_to-object.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_to-primitive.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_uid.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_wks-define.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_wks-ext.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/_wks.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/es6.array.iterator.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/es6.object.create.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/es6.object.define-property.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/es6.object.get-prototype-of.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/es6.object.set-prototype-of.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/es6.object.to-string.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/es6.string.iterator.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/es6.symbol.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/es7.symbol.async-iterator.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/es7.symbol.observable.js":
+false,
+
+/***/ "./node_modules/core-js/library/modules/web.dom.iterable.js":
+false,
+
 /***/ "./node_modules/fast-json-stable-stringify/index.js":
 /*!**********************************************************!*\
   !*** ./node_modules/fast-json-stable-stringify/index.js ***!
@@ -10694,102 +10958,6 @@ function getVisitFn(visitor, kind, isLeaving) {
 
 /***/ }),
 
-/***/ "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js":
-/*!**********************************************************************************!*\
-  !*** ./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js ***!
-  \**********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-/**
- * Copyright 2015, Yahoo! Inc.
- * Copyrights licensed under the New BSD License. See the accompanying LICENSE file for terms.
- */
-var ReactIs = __webpack_require__(/*! react-is */ "./node_modules/react-is/index.js");
-var REACT_STATICS = {
-    childContextTypes: true,
-    contextType: true,
-    contextTypes: true,
-    defaultProps: true,
-    displayName: true,
-    getDefaultProps: true,
-    getDerivedStateFromError: true,
-    getDerivedStateFromProps: true,
-    mixins: true,
-    propTypes: true,
-    type: true
-};
-
-var KNOWN_STATICS = {
-    name: true,
-    length: true,
-    prototype: true,
-    caller: true,
-    callee: true,
-    arguments: true,
-    arity: true
-};
-
-var FORWARD_REF_STATICS = {
-    '$$typeof': true,
-    render: true
-};
-
-var TYPE_STATICS = {};
-TYPE_STATICS[ReactIs.ForwardRef] = FORWARD_REF_STATICS;
-
-var defineProperty = Object.defineProperty;
-var getOwnPropertyNames = Object.getOwnPropertyNames;
-var getOwnPropertySymbols = Object.getOwnPropertySymbols;
-var getOwnPropertyDescriptor = Object.getOwnPropertyDescriptor;
-var getPrototypeOf = Object.getPrototypeOf;
-var objectPrototype = Object.prototype;
-
-function hoistNonReactStatics(targetComponent, sourceComponent, blacklist) {
-    if (typeof sourceComponent !== 'string') {
-        // don't hoist over string (html) components
-
-        if (objectPrototype) {
-            var inheritedComponent = getPrototypeOf(sourceComponent);
-            if (inheritedComponent && inheritedComponent !== objectPrototype) {
-                hoistNonReactStatics(targetComponent, inheritedComponent, blacklist);
-            }
-        }
-
-        var keys = getOwnPropertyNames(sourceComponent);
-
-        if (getOwnPropertySymbols) {
-            keys = keys.concat(getOwnPropertySymbols(sourceComponent));
-        }
-
-        var targetStatics = TYPE_STATICS[targetComponent['$$typeof']] || REACT_STATICS;
-        var sourceStatics = TYPE_STATICS[sourceComponent['$$typeof']] || REACT_STATICS;
-
-        for (var i = 0; i < keys.length; ++i) {
-            var key = keys[i];
-            if (!KNOWN_STATICS[key] && !(blacklist && blacklist[key]) && !(sourceStatics && sourceStatics[key]) && !(targetStatics && targetStatics[key])) {
-                var descriptor = getOwnPropertyDescriptor(sourceComponent, key);
-                try {
-                    // Avoid failures from read-only properties
-                    defineProperty(targetComponent, key, descriptor);
-                } catch (e) {}
-            }
-        }
-
-        return targetComponent;
-    }
-
-    return targetComponent;
-}
-
-module.exports = hoistNonReactStatics;
-
-
-/***/ }),
-
 /***/ "./node_modules/immutable-tuple/dist/tuple.mjs":
 /*!*****************************************************!*\
   !*** ./node_modules/immutable-tuple/dist/tuple.mjs ***!
@@ -11057,60 +11225,6 @@ tuple.prototype.concat = function () {
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fmnt%2Fc%2Fusers%2Fasya%2Fdocuments%2Fshepa%2Fnext-app%2Fpages%2Findex.js!./":
-/*!****************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fmnt%2Fc%2Fusers%2Fasya%2Fdocuments%2Fshepa%2Fnext-app%2Fpages%2Findex.js ***!
-  \****************************************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
-      var page = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
-      if(true) {
-        module.hot.accept(/*! ./pages/index.js */ "./pages/index.js", function() {
-          if(!next.router.components["/"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
-          next.router.update("/", updatedPage.default || updatedPage)
-        })
-      }
-      return { page: page.default || page }
-    }]);
-  
-
-/***/ }),
-
-/***/ "./node_modules/next/node_modules/webpack/buildin/global.js":
-/*!***********************************!*\
-  !*** (webpack)/buildin/global.js ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-var g;
-
-// This works in non-strict mode
-g = (function() {
-	return this;
-})();
-
-try {
-	// This works if eval is allowed (see CSP)
-	g = g || new Function("return this")();
-} catch (e) {
-	// This works if the window reference is available
-	if (typeof window === "object") g = window;
-}
-
-// g can still be undefined, but nothing to do about it...
-// We return undefined, instead of nothing here, so it's
-// easier to handle this case. if(!global) { ...}
-
-module.exports = g;
-
-
-/***/ }),
-
 /***/ "./node_modules/next/node_modules/webpack/buildin/harmony-module.js":
 /*!*******************************************!*\
   !*** (webpack)/buildin/harmony-module.js ***!
@@ -11143,50 +11257,6 @@ module.exports = function(originalModule) {
 	return module;
 };
 
-
-/***/ }),
-
-/***/ "./node_modules/next/node_modules/webpack/buildin/module.js":
-/*!***********************************!*\
-  !*** (webpack)/buildin/module.js ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = function(module) {
-	if (!module.webpackPolyfill) {
-		module.deprecate = function() {};
-		module.paths = [];
-		// module.parent = undefined by default
-		if (!module.children) module.children = [];
-		Object.defineProperty(module, "loaded", {
-			enumerable: true,
-			get: function() {
-				return module.l;
-			}
-		});
-		Object.defineProperty(module, "id", {
-			enumerable: true,
-			get: function() {
-				return module.i;
-			}
-		});
-		module.webpackPolyfill = 1;
-	}
-	return module;
-};
-
-
-/***/ }),
-
-/***/ "./node_modules/object-assign/index.js":
-/*!***************************************************************************************************!*\
-  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_92862a29917dee4fb2b1 ***!
-  \***************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = (__webpack_require__(/*! dll-reference dll_92862a29917dee4fb2b1 */ "dll-reference dll_92862a29917dee4fb2b1"))("./node_modules/object-assign/index.js");
 
 /***/ }),
 
@@ -17498,6 +17568,9 @@ module.exports = server_browser;
 
 /***/ }),
 
+/***/ "./node_modules/react-dom/index.js":
+false,
+
 /***/ "./node_modules/react-dom/server.browser.js":
 /*!**************************************************!*\
   !*** ./node_modules/react-dom/server.browser.js ***!
@@ -17512,273 +17585,6 @@ if (false) {} else {
   module.exports = __webpack_require__(/*! ./cjs/react-dom-server.browser.development.js */ "./node_modules/react-dom/cjs/react-dom-server.browser.development.js");
 }
 
-
-/***/ }),
-
-/***/ "./node_modules/react-is/cjs/react-is.development.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/react-is/cjs/react-is.development.js ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/** @license React v16.8.3
- * react-is.development.js
- *
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-
-
-
-
-if (true) {
-  (function() {
-'use strict';
-
-Object.defineProperty(exports, '__esModule', { value: true });
-
-// The Symbol used to tag the ReactElement-like types. If there is no native Symbol
-// nor polyfill, then a plain number is used for performance.
-var hasSymbol = typeof Symbol === 'function' && Symbol.for;
-
-var REACT_ELEMENT_TYPE = hasSymbol ? Symbol.for('react.element') : 0xeac7;
-var REACT_PORTAL_TYPE = hasSymbol ? Symbol.for('react.portal') : 0xeaca;
-var REACT_FRAGMENT_TYPE = hasSymbol ? Symbol.for('react.fragment') : 0xeacb;
-var REACT_STRICT_MODE_TYPE = hasSymbol ? Symbol.for('react.strict_mode') : 0xeacc;
-var REACT_PROFILER_TYPE = hasSymbol ? Symbol.for('react.profiler') : 0xead2;
-var REACT_PROVIDER_TYPE = hasSymbol ? Symbol.for('react.provider') : 0xeacd;
-var REACT_CONTEXT_TYPE = hasSymbol ? Symbol.for('react.context') : 0xeace;
-var REACT_ASYNC_MODE_TYPE = hasSymbol ? Symbol.for('react.async_mode') : 0xeacf;
-var REACT_CONCURRENT_MODE_TYPE = hasSymbol ? Symbol.for('react.concurrent_mode') : 0xeacf;
-var REACT_FORWARD_REF_TYPE = hasSymbol ? Symbol.for('react.forward_ref') : 0xead0;
-var REACT_SUSPENSE_TYPE = hasSymbol ? Symbol.for('react.suspense') : 0xead1;
-var REACT_MEMO_TYPE = hasSymbol ? Symbol.for('react.memo') : 0xead3;
-var REACT_LAZY_TYPE = hasSymbol ? Symbol.for('react.lazy') : 0xead4;
-
-function isValidElementType(type) {
-  return typeof type === 'string' || typeof type === 'function' ||
-  // Note: its typeof might be other than 'symbol' or 'number' if it's a polyfill.
-  type === REACT_FRAGMENT_TYPE || type === REACT_CONCURRENT_MODE_TYPE || type === REACT_PROFILER_TYPE || type === REACT_STRICT_MODE_TYPE || type === REACT_SUSPENSE_TYPE || typeof type === 'object' && type !== null && (type.$$typeof === REACT_LAZY_TYPE || type.$$typeof === REACT_MEMO_TYPE || type.$$typeof === REACT_PROVIDER_TYPE || type.$$typeof === REACT_CONTEXT_TYPE || type.$$typeof === REACT_FORWARD_REF_TYPE);
-}
-
-/**
- * Forked from fbjs/warning:
- * https://github.com/facebook/fbjs/blob/e66ba20ad5be433eb54423f2b097d829324d9de6/packages/fbjs/src/__forks__/warning.js
- *
- * Only change is we use console.warn instead of console.error,
- * and do nothing when 'console' is not supported.
- * This really simplifies the code.
- * ---
- * Similar to invariant but only logs a warning if the condition is not met.
- * This can be used to log issues in development environments in critical
- * paths. Removing the logging code for production environments will keep the
- * same logic and follow the same code paths.
- */
-
-var lowPriorityWarning = function () {};
-
-{
-  var printWarning = function (format) {
-    for (var _len = arguments.length, args = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
-      args[_key - 1] = arguments[_key];
-    }
-
-    var argIndex = 0;
-    var message = 'Warning: ' + format.replace(/%s/g, function () {
-      return args[argIndex++];
-    });
-    if (typeof console !== 'undefined') {
-      console.warn(message);
-    }
-    try {
-      // --- Welcome to debugging React ---
-      // This error was thrown as a convenience so that you can use this stack
-      // to find the callsite that caused this warning to fire.
-      throw new Error(message);
-    } catch (x) {}
-  };
-
-  lowPriorityWarning = function (condition, format) {
-    if (format === undefined) {
-      throw new Error('`lowPriorityWarning(condition, format, ...args)` requires a warning ' + 'message argument');
-    }
-    if (!condition) {
-      for (var _len2 = arguments.length, args = Array(_len2 > 2 ? _len2 - 2 : 0), _key2 = 2; _key2 < _len2; _key2++) {
-        args[_key2 - 2] = arguments[_key2];
-      }
-
-      printWarning.apply(undefined, [format].concat(args));
-    }
-  };
-}
-
-var lowPriorityWarning$1 = lowPriorityWarning;
-
-function typeOf(object) {
-  if (typeof object === 'object' && object !== null) {
-    var $$typeof = object.$$typeof;
-    switch ($$typeof) {
-      case REACT_ELEMENT_TYPE:
-        var type = object.type;
-
-        switch (type) {
-          case REACT_ASYNC_MODE_TYPE:
-          case REACT_CONCURRENT_MODE_TYPE:
-          case REACT_FRAGMENT_TYPE:
-          case REACT_PROFILER_TYPE:
-          case REACT_STRICT_MODE_TYPE:
-          case REACT_SUSPENSE_TYPE:
-            return type;
-          default:
-            var $$typeofType = type && type.$$typeof;
-
-            switch ($$typeofType) {
-              case REACT_CONTEXT_TYPE:
-              case REACT_FORWARD_REF_TYPE:
-              case REACT_PROVIDER_TYPE:
-                return $$typeofType;
-              default:
-                return $$typeof;
-            }
-        }
-      case REACT_LAZY_TYPE:
-      case REACT_MEMO_TYPE:
-      case REACT_PORTAL_TYPE:
-        return $$typeof;
-    }
-  }
-
-  return undefined;
-}
-
-// AsyncMode is deprecated along with isAsyncMode
-var AsyncMode = REACT_ASYNC_MODE_TYPE;
-var ConcurrentMode = REACT_CONCURRENT_MODE_TYPE;
-var ContextConsumer = REACT_CONTEXT_TYPE;
-var ContextProvider = REACT_PROVIDER_TYPE;
-var Element = REACT_ELEMENT_TYPE;
-var ForwardRef = REACT_FORWARD_REF_TYPE;
-var Fragment = REACT_FRAGMENT_TYPE;
-var Lazy = REACT_LAZY_TYPE;
-var Memo = REACT_MEMO_TYPE;
-var Portal = REACT_PORTAL_TYPE;
-var Profiler = REACT_PROFILER_TYPE;
-var StrictMode = REACT_STRICT_MODE_TYPE;
-var Suspense = REACT_SUSPENSE_TYPE;
-
-var hasWarnedAboutDeprecatedIsAsyncMode = false;
-
-// AsyncMode should be deprecated
-function isAsyncMode(object) {
-  {
-    if (!hasWarnedAboutDeprecatedIsAsyncMode) {
-      hasWarnedAboutDeprecatedIsAsyncMode = true;
-      lowPriorityWarning$1(false, 'The ReactIs.isAsyncMode() alias has been deprecated, ' + 'and will be removed in React 17+. Update your code to use ' + 'ReactIs.isConcurrentMode() instead. It has the exact same API.');
-    }
-  }
-  return isConcurrentMode(object) || typeOf(object) === REACT_ASYNC_MODE_TYPE;
-}
-function isConcurrentMode(object) {
-  return typeOf(object) === REACT_CONCURRENT_MODE_TYPE;
-}
-function isContextConsumer(object) {
-  return typeOf(object) === REACT_CONTEXT_TYPE;
-}
-function isContextProvider(object) {
-  return typeOf(object) === REACT_PROVIDER_TYPE;
-}
-function isElement(object) {
-  return typeof object === 'object' && object !== null && object.$$typeof === REACT_ELEMENT_TYPE;
-}
-function isForwardRef(object) {
-  return typeOf(object) === REACT_FORWARD_REF_TYPE;
-}
-function isFragment(object) {
-  return typeOf(object) === REACT_FRAGMENT_TYPE;
-}
-function isLazy(object) {
-  return typeOf(object) === REACT_LAZY_TYPE;
-}
-function isMemo(object) {
-  return typeOf(object) === REACT_MEMO_TYPE;
-}
-function isPortal(object) {
-  return typeOf(object) === REACT_PORTAL_TYPE;
-}
-function isProfiler(object) {
-  return typeOf(object) === REACT_PROFILER_TYPE;
-}
-function isStrictMode(object) {
-  return typeOf(object) === REACT_STRICT_MODE_TYPE;
-}
-function isSuspense(object) {
-  return typeOf(object) === REACT_SUSPENSE_TYPE;
-}
-
-exports.typeOf = typeOf;
-exports.AsyncMode = AsyncMode;
-exports.ConcurrentMode = ConcurrentMode;
-exports.ContextConsumer = ContextConsumer;
-exports.ContextProvider = ContextProvider;
-exports.Element = Element;
-exports.ForwardRef = ForwardRef;
-exports.Fragment = Fragment;
-exports.Lazy = Lazy;
-exports.Memo = Memo;
-exports.Portal = Portal;
-exports.Profiler = Profiler;
-exports.StrictMode = StrictMode;
-exports.Suspense = Suspense;
-exports.isValidElementType = isValidElementType;
-exports.isAsyncMode = isAsyncMode;
-exports.isConcurrentMode = isConcurrentMode;
-exports.isContextConsumer = isContextConsumer;
-exports.isContextProvider = isContextProvider;
-exports.isElement = isElement;
-exports.isForwardRef = isForwardRef;
-exports.isFragment = isFragment;
-exports.isLazy = isLazy;
-exports.isMemo = isMemo;
-exports.isPortal = isPortal;
-exports.isProfiler = isProfiler;
-exports.isStrictMode = isStrictMode;
-exports.isSuspense = isSuspense;
-  })();
-}
-
-
-/***/ }),
-
-/***/ "./node_modules/react-is/index.js":
-/*!****************************************!*\
-  !*** ./node_modules/react-is/index.js ***!
-  \****************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-if (false) {} else {
-  module.exports = __webpack_require__(/*! ./cjs/react-is.development.js */ "./node_modules/react-is/cjs/react-is.development.js");
-}
-
-
-/***/ }),
-
-/***/ "./node_modules/react/index.js":
-/*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_92862a29917dee4fb2b1 ***!
-  \*******************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = (__webpack_require__(/*! dll-reference dll_92862a29917dee4fb2b1 */ "dll-reference dll_92862a29917dee4fb2b1"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -18797,7 +18603,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var Content = function Content() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Hello");
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Asya");
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Content);
@@ -18834,30 +18640,7 @@ var Index = function Index() {
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
 
-/***/ }),
-
-/***/ 1:
-/*!********************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fmnt%2Fc%2Fusers%2Fasya%2Fdocuments%2Fshepa%2Fnext-app%2Fpages%2Findex.js ***!
-  \********************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fmnt%2Fc%2Fusers%2Fasya%2Fdocuments%2Fshepa%2Fnext-app%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fmnt%2Fc%2Fusers%2Fasya%2Fdocuments%2Fshepa%2Fnext-app%2Fpages%2Findex.js!./");
-
-
-/***/ }),
-
-/***/ "dll-reference dll_92862a29917dee4fb2b1":
-/*!*******************************************!*\
-  !*** external "dll_92862a29917dee4fb2b1" ***!
-  \*******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = dll_92862a29917dee4fb2b1;
-
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]));;
-//# sourceMappingURL=index.js.map
+})
+//# sourceMappingURL=index.js.f9ec2333cf73f19d3952.hot-update.js.map
