@@ -1,5 +1,8 @@
 import React, { useState } from 'react'
 import { gql } from 'apollo-boost'
+import { Query } from 'react-apollo'
+import Pokemon from '../components/pokemon'
+import styled from 'styled-components'
 
 const getPokemons = gql`
   {
@@ -11,14 +14,30 @@ const getPokemons = gql`
     }
   }
 `
+const AllPokemonsBlock = styled.div`
+  width: 80%;
+  margin-left: 10%;
+  overflow: hidden;
+  box-sizing: border-box;
+`
 
-const Page = () => {
-
+const Content = () => {
   const showPokemons = () => {
-    return <p>Hello</p>
+    return (
+      <Query query={getPokemons}>
+        {({ loading, error, data }) => {
+          if (loading) return <p>Loading...</p>
+          if (error) return <p>Error :(</p>
+
+          return data.pokemons.map(pokemon => {
+            return <Pokemon key={pokemon.id} src={pokemon.image} name={pokemon.name} type={pokemon.types} />
+          })
+        }}
+      </Query>
+    )
   }
 
-  return <div>{showPokemons()}</div>
+  return <AllPokemonsBlock>{showPokemons()}</AllPokemonsBlock>
 }
 
-export default Page
+export default Content
